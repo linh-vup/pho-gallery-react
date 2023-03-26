@@ -1,5 +1,7 @@
 import './App.css';
 
+const images = [];
+
 function App() {
   return (
     <div className='main'>
