@@ -8,8 +8,18 @@ import image5 from './assets/image5.png';
 
 const images = [image1, image2, image3, image4, image5];
 
+const Loading = ({ calculatedWidth }) => (
+  <aside>
+    <div className='loading-bar'>
+      <label htmlFor='images-loaded'>Loading images ...</label>
+      <progress id='images-loaded' max='100' value={calculatedWidth}></progress>
+    </div>
+  </aside>
+);
+
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
+  const [numLoaded, setNumLoaded] = useState(0);
 
   const handleClick = () => {
     const length = images.length;
@@ -19,19 +29,38 @@ function App() {
     );
   };
 
+  const handleImageLoad = () => {
+    setNumLoaded((numLoaded) => numLoaded + 1);
+  };
+
   return (
     <section>
       <div className='title'>
-        <h1>Gallaria Pho</h1>
+        <h1>Gallaria Phở</h1>
         <h2>
-          A Gallery of Dall-E generated images of Pho. A project by Linh Vu
+          A Gallery of Dall-E generated images of Phở. <br />A project by{' '}
+          <a href='https://linh.fyi/'>Linh Vu</a>
         </h2>
       </div>
       <figure>
+        {numLoaded < images.length && (
+          <Loading calculatedWidth={(numLoaded / images.length) * 100} />
+        )}
+
         <figcaption>
           {currentImage + 1} / {images.length}
         </figcaption>
-        <img src={images[currentImage]} alt='pho' onClick={handleClick} />
+        {images.map((imageURL, index) => (
+          <img
+            alt='pho'
+            src={imageURL}
+            key={imageURL}
+            onClick={handleClick}
+            onLoad={handleImageLoad}
+            // style={{ opacity: currentImage === index ? 1 : 0 }}
+            className={currentImage === index ? 'display' : 'hide'}
+          />
+        ))}
       </figure>
     </section>
   );
