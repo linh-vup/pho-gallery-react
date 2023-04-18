@@ -72,7 +72,7 @@ function App() {
   return (
     <section>
       <div className='title'>
-        <h1>Gallaria Phở</h1>{" "}
+        <h1>Galerie Phở</h1>{" "}
         <p>
           Prompt: "<span>{images[currentImage].description}</span>"
         </p>

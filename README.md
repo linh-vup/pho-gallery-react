@@ -1,4 +1,4 @@
-# Galleria Phở
+# Galerie Phở
 
 A gallery of Dall-E generated images of phở, based on different style prompts based on a code along to SupherHi's [Intro to React.js](https://www.superhi.com/courses/intro-to-react-javascript) Chapter 1 project (Zesty).
 
@@ -8,6 +8,7 @@ A gallery of Dall-E generated images of phở, based on different style prompts 
 - Instead of a simple array of images, I modified it to be an array of objects and added a 'description'(prompt) key to display the used prompt along with the image.
 - Used `display: flex` to organise text elements instead of using `position: fixed` and `bottom: 0` for the h3 project description.
 - Optimised for image loading by using a component using the `picture` element that includes a webp source and a png fallback
+- Used ["Be Vietnam Pro"](https://fonts.google.com/specimen/Be+Vietnam+Pro) font so Vietnamese letters/diacritics are displayed nicely
 
 # New Things Learned/Used
 
