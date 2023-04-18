@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pho-gallery-react/static/css/main.19311310.css",
-    "main.js": "/pho-gallery-react/static/js/main.4462c88e.js",
+    "main.css": "/pho-gallery-react/static/css/main.5c30f64a.css",
+    "main.js": "/pho-gallery-react/static/js/main.a04a2f2a.js",
     "static/js/787.61e2391b.chunk.js": "/pho-gallery-react/static/js/787.61e2391b.chunk.js",
     "static/media/image2.png": "/pho-gallery-react/static/media/image2.51449d2aa76174c2d832.png",
     "static/media/image1.png": "/pho-gallery-react/static/media/image1.de012612cfac795afb8f.png",
@@ -18,12 +18,12 @@
     "static/media/image7.webp": "/pho-gallery-react/static/media/image7.d51d55ecabcd7fcf3c28.webp",
     "static/media/image6.webp": "/pho-gallery-react/static/media/image6.150238e8269987156341.webp",
     "index.html": "/pho-gallery-react/index.html",
-    "main.19311310.css.map": "/pho-gallery-react/static/css/main.19311310.css.map",
-    "main.4462c88e.js.map": "/pho-gallery-react/static/js/main.4462c88e.js.map",
+    "main.5c30f64a.css.map": "/pho-gallery-react/static/css/main.5c30f64a.css.map",
+    "main.a04a2f2a.js.map": "/pho-gallery-react/static/js/main.a04a2f2a.js.map",
     "787.61e2391b.chunk.js.map": "/pho-gallery-react/static/js/787.61e2391b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19311310.css",
-    "static/js/main.4462c88e.js"
+    "static/css/main.5c30f64a.css",
+    "static/js/main.a04a2f2a.js"
   ]
 }
