@@ -6,8 +6,9 @@ A gallery of Dall-E generated images of phở, based on different style prompts 
 
 - I used [Dall-E](https://openai.com/product/dall-e-2) to create images of phở based on different prompts.
 - Instead of a simple array of images, I modified it to be an array of objects and added a 'description'(prompt) key to display the used prompt along with the image.
-- Used `display: flex` to organise text elements instead of using `position: fixed` and `bottom: 0` for the h3 project description.
+- Moved Loader function into separate component and imported into App.js
 - Optimised for image loading by using a component using the `picture` element that includes a webp source and a png fallback
+- Used `display: flex` to organise text elements instead of using `position: fixed` and `bottom: 0` for the h3 project description.
 - Used ["Be Vietnam Pro"](https://fonts.google.com/specimen/Be+Vietnam+Pro) font so Vietnamese letters/diacritics are displayed nicely
 
 # New Things Learned/Used
