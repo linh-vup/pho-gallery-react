@@ -1,6 +1,8 @@
-# Galerie Phở
+# Galerie Phở 🍜🇻🇳
 
-A gallery of Dall-E generated images of phở, based on different style prompts based on a code along to SupherHi's [Intro to React.js](https://www.superhi.com/courses/intro-to-react-javascript) Chapter 1 project (Zesty).
+A simple photo gallery website with Dall-E generated images of phở, based on different style prompts. The project is based on a code along to SupherHi's [Intro to React.js](https://www.superhi.com/courses/intro-to-react-javascript) Chapter 1 project (Zesty).
+
+Link to deployment: https://linh-vup.github.io/pho-gallery-react/
 
 # Personalisation
 
@@ -13,6 +15,7 @@ A gallery of Dall-E generated images of phở, based on different style prompts 
 
 # New Things Learned/Used
 
+- Dall-E seems to be skewed towards depicting Southern style pho
 - Linking google fonts in HTML rather than importing into css (https://sia.codes/posts/making-google-fonts-faster/)
 - Using CSS `text-rendering` property
 - Using `-webkit-fill-available` for the `height` property of the `<img>` element for a better cover fit
