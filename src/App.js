@@ -1,21 +1,57 @@
-import { useState } from 'react';
-import './App.css';
-import image1 from './assets/image1.png';
-import image2 from './assets/image2.png';
-import image3 from './assets/image3.png';
-import image4 from './assets/image4.png';
-import image5 from './assets/image5.png';
+import { useState } from "react";
+// import ImgWithFallback from "./components/ImgWithFallback";
+import Loader from "./components/Loader";
+import ImgWithFallback from "./components/ImgWithFallback";
 
-const images = [image1, image2, image3, image4, image5];
+import "./App.css";
+import image1 from "./assets/image1.webp";
+import image1f from "./assets/image1.png";
+import image2 from "./assets/image2.webp";
+import image2f from "./assets/image2.png";
+import image3 from "./assets/image3.webp";
+import image3f from "./assets/image3.png";
+import image4 from "./assets/image4.webp";
+import image4f from "./assets/image4.png";
+import image5 from "./assets/image5.webp";
+import image5f from "./assets/image5.png";
+import image6 from "./assets/image6.webp";
+import image6f from "./assets/image6.png";
+import image7 from "./assets/image7.webp";
+import image7f from "./assets/image7.png";
 
-const Loading = ({ calculatedWidth }) => (
-  <aside>
-    <div className='loading-bar'>
-      <label htmlFor='images-loaded'>Loading images ...</label>
-      <progress id='images-loaded' max='100' value={calculatedWidth}></progress>
-    </div>
-  </aside>
-);
+const images = [
+  {
+    url: image1,
+    fallbackUrl: image1f,
+    description: "a van Gogh style painting of a bowl of pho soup"
+  },
+  {
+    url: image2,
+    fallbackUrl: image2f,
+    description: "an oil pastel drawing of pho soup"
+  },
+  { url: image3, fallbackUrl: image3f, description: "pho soup, comic style" },
+  {
+    url: image4,
+    fallbackUrl: image4f,
+    description: "pho soup, comic style (v2)"
+  },
+  {
+    url: image5,
+    fallbackUrl: image5f,
+    description: "an andy warhol style painting of pho soup"
+  },
+  {
+    url: image6,
+    fallbackUrl: image6f,
+    description: "pixel art of a pho soup bowl"
+  },
+  {
+    url: image7,
+    fallbackUrl: image7f,
+    description: "a studio ghibli style drawing of pho soup"
+  }
+];
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -36,29 +72,35 @@ function App() {
   return (
     <section>
       <div className='title'>
-        <h1>Gallaria Phở</h1>
-        <h2>
-          A Gallery of Dall-E generated images of Phở. <br />A project by{' '}
-          <a href='https://linh.fyi/'>Linh Vu</a>
-        </h2>
+        <h1>Gallaria Phở</h1>{" "}
+        <p>
+          Prompt: "<span>{images[currentImage].description}</span>"
+        </p>
+        <h3>
+          A gallery of <a href='https://openai.com/product/dall-e-2'>Dall-E</a>{" "}
+          generated images of Phở. <br />
+          <a href='https://linh.fyi/' className='portfolio-link'>
+            linh.fyi
+          </a>
+        </h3>
       </div>
       <figure>
         {numLoaded < images.length && (
-          <Loading calculatedWidth={(numLoaded / images.length) * 100} />
+          <Loader calculatedWidth={(numLoaded / images.length) * 100} />
         )}
 
         <figcaption>
           {currentImage + 1} / {images.length}
         </figcaption>
-        {images.map((imageURL, index) => (
-          <img
-            alt='pho'
-            src={imageURL}
-            key={imageURL}
+        {images.map((image, index) => (
+          <ImgWithFallback
+            src={image.url}
+            fallback={image.fallback}
+            alt={image.description}
+            key={image.url}
             onClick={handleClick}
             onLoad={handleImageLoad}
-            // style={{ opacity: currentImage === index ? 1 : 0 }}
-            className={currentImage === index ? 'display' : 'hide'}
+            className={currentImage === index ? "display" : "hide"}
           />
         ))}
       </figure>
