@@ -15,7 +15,7 @@ Link to deployment: https://linh-vup.github.io/pho-gallery-react/
 
 # New Things Learned/Used
 
-- Dall-E seems to be skewed towards depicting Southern style pho
+- Dall-E seems to be skewed towards depicting southern style phở (I 1000% believe northern style phở is better)
 - Linking google fonts in HTML rather than importing into css (https://sia.codes/posts/making-google-fonts-faster/)
 - Using CSS `text-rendering` property
 - Using `-webkit-fill-available` for the `height` property of the `<img>` element for a better cover fit
