@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pho-gallery-react/static/css/main.19311310.css",
+    "main.js": "/pho-gallery-react/static/js/main.4462c88e.js",
+    "static/js/787.61e2391b.chunk.js": "/pho-gallery-react/static/js/787.61e2391b.chunk.js",
+    "static/media/image2.png": "/pho-gallery-react/static/media/image2.51449d2aa76174c2d832.png",
+    "static/media/image1.png": "/pho-gallery-react/static/media/image1.de012612cfac795afb8f.png",
+    "static/media/image4.png": "/pho-gallery-react/static/media/image4.d24d8259d4f373929fbf.png",
+    "static/media/image5.png": "/pho-gallery-react/static/media/image5.3e25c717edf900e6c516.png",
+    "static/media/image7.png": "/pho-gallery-react/static/media/image7.6a6e7d219ba2f68595cc.png",
+    "static/media/image3.png": "/pho-gallery-react/static/media/image3.eef9cb2d53e7c016b5c1.png",
+    "static/media/image6.png": "/pho-gallery-react/static/media/image6.e05210f95fc7026df4eb.png",
+    "static/media/image2.webp": "/pho-gallery-react/static/media/image2.a77ac67be9e4f0ed771d.webp",
+    "static/media/image1.webp": "/pho-gallery-react/static/media/image1.7e776fd8856e26c18627.webp",
+    "static/media/image5.webp": "/pho-gallery-react/static/media/image5.6216d8352fd9bf94af34.webp",
+    "static/media/image4.webp": "/pho-gallery-react/static/media/image4.bde4dfbb35c1d04d81a4.webp",
+    "static/media/image3.webp": "/pho-gallery-react/static/media/image3.0164f7c511c783c743ba.webp",
+    "static/media/image7.webp": "/pho-gallery-react/static/media/image7.d51d55ecabcd7fcf3c28.webp",
+    "static/media/image6.webp": "/pho-gallery-react/static/media/image6.150238e8269987156341.webp",
+    "index.html": "/pho-gallery-react/index.html",
+    "main.19311310.css.map": "/pho-gallery-react/static/css/main.19311310.css.map",
+    "main.4462c88e.js.map": "/pho-gallery-react/static/js/main.4462c88e.js.map",
+    "787.61e2391b.chunk.js.map": "/pho-gallery-react/static/js/787.61e2391b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19311310.css",
+    "static/js/main.4462c88e.js"
+  ]
+}
