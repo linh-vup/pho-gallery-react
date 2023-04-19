@@ -58,6 +58,12 @@ figure {
   margin: 0;
   width: 60vw;
   position: relative;
+  cursor: url("/public/fish_sauce_up.png") 25 25, pointer;
+  /* cursor: pointer; */
+}
+
+figure:active {
+  cursor: url("/public/fish_sauce.png") 25 25, pointer;
 }
 
 figcaption {
