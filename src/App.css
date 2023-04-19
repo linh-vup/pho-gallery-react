@@ -150,12 +150,16 @@ progress[value]::-webkit-progress-value {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     position: relative;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   figcaption {
