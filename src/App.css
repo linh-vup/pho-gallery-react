@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #e8e5e0;
+  background: #f0f0f0;
   color: #e4612e;
   height: 100vh;
   width: 100vw;
@@ -35,6 +35,7 @@ p {
   text-align: center;
   font-size: 1.25rem;
   margin: 0 20px;
+  color: rgb(53, 57, 53);
 }
 
 span {
@@ -68,12 +69,12 @@ figure:active {
 figcaption {
   font-size: 2.5rem;
   font-weight: normal;
-  text-shadow: 2px 2px #e4612e;
+  text-shadow: 2px 2px rgb(53, 57, 53);
   position: fixed;
   text-align: center;
   z-index: 1;
   bottom: 0;
-  color: #f7e7ce;
+  color: #e4612e;
   margin: 0 auto;
   width: 50%;
   padding: 20px 0;
