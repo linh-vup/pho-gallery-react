@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pho-gallery-react/static/css/main.5c30f64a.css",
+    "main.css": "/pho-gallery-react/static/css/main.6e087d2b.css",
     "main.js": "/pho-gallery-react/static/js/main.a04a2f2a.js",
     "static/js/787.61e2391b.chunk.js": "/pho-gallery-react/static/js/787.61e2391b.chunk.js",
     "static/media/image2.png": "/pho-gallery-react/static/media/image2.51449d2aa76174c2d832.png",
@@ -18,12 +18,12 @@
     "static/media/image7.webp": "/pho-gallery-react/static/media/image7.d51d55ecabcd7fcf3c28.webp",
     "static/media/image6.webp": "/pho-gallery-react/static/media/image6.150238e8269987156341.webp",
     "index.html": "/pho-gallery-react/index.html",
-    "main.5c30f64a.css.map": "/pho-gallery-react/static/css/main.5c30f64a.css.map",
+    "main.6e087d2b.css.map": "/pho-gallery-react/static/css/main.6e087d2b.css.map",
     "main.a04a2f2a.js.map": "/pho-gallery-react/static/js/main.a04a2f2a.js.map",
     "787.61e2391b.chunk.js.map": "/pho-gallery-react/static/js/787.61e2391b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c30f64a.css",
+    "static/css/main.6e087d2b.css",
     "static/js/main.a04a2f2a.js"
   ]
 }
