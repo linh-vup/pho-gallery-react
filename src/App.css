@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #f7e7ce;
-  color: #294910;
+  background: #e8e5e0;
+  color: #e4612e;
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -43,7 +43,7 @@ span {
 
 a {
   text-decoration: none;
-  color: #294910;
+  color: #e4612e;
 }
 
 a:hover {
@@ -59,7 +59,6 @@ figure {
   width: 60vw;
   position: relative;
   cursor: url("/public/fish_sauce_up.png") 25 25, pointer;
-  /* cursor: pointer; */
 }
 
 figure:active {
@@ -69,7 +68,7 @@ figure:active {
 figcaption {
   font-size: 2.5rem;
   font-weight: normal;
-  text-shadow: 2px 2px #294910;
+  text-shadow: 2px 2px #e4612e;
   position: fixed;
   text-align: center;
   z-index: 1;
@@ -93,7 +92,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: 8px solid #294910;
+  border-right: 8px solid #e4612e;
 }
 .display {
   opacity: 1;
@@ -120,7 +119,7 @@ aside {
 }
 
 progress {
-  border: 1px solid #294910;
+  border: 1px solid #e4612e;
   height: 20px;
   width: 400px;
 }
@@ -130,7 +129,7 @@ progress[value]::-webkit-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
-  background: #294910;
+  background: #e4612e;
 }
 
 @media (max-width: 800px) {
